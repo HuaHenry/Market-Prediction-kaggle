@@ -1,4 +1,13 @@
 # Auto detect text files and perform LF normalization
+# 全局规则：自动检测文本文件并转换换行符
 * text=auto
 
+# 强制 LF 换行符的文件类型
+*.py text eol=lf
+*.proto text eol=lf
+*.ipynb text eol=lf
+*.sh text eol=lf
+
+# 强制 CRLF 换行符的文件类型
+*.bat text eol=crlf
 .DS_Store
