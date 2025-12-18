@@ -11,3 +11,4 @@
 # 强制 CRLF 换行符的文件类型
 *.bat text eol=crlf
 .DS_Store
+**/.DS_Store
